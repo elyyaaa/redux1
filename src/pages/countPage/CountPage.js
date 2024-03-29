@@ -1,5 +1,5 @@
 // import React from 'react';
-// import {useDispatch, useSelector} from "react-redux";
+// import {useDispatch, useSelector} from "react-reducers";
 //
 // const CountPage = () => {
 //     const count = useSelector(state => state.countTitle)

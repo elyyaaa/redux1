@@ -7,7 +7,8 @@ export const type = {
     PLUS:"PLUS",
     MINE:"MINE",
     MULTIPLY:"MULTIPLY",
-    DIVIDE:"DIVIDE"
+    DIVIDE:"DIVIDE",
+    USERS:"USERS"
 
 
 }

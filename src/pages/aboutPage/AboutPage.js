@@ -1,14 +1,14 @@
-// import React from 'react';
-// import {useSelector} from "react-redux";
-//
-// const AboutPage = () => {
-//     const aboutTitle = useSelector(state => state.aboutTitle)
-//     return (
-//         <div>
-//             <h1>{aboutTitle}</h1>
-//
-//         </div>
-//     );
-// };
-//
-// export default AboutPage;
+import React from 'react';
+import {useDispatch} from "react-redux";
+import {asyncFunctionAction} from "../../redux/action";
+
+const AboutPage = () => {
+    const dispatch = useDispatch()
+    return (
+        <div>
+            <button onClick={()=> dispatch(asyncFunctionAction())}>after 2 sec.</button>
+        </div>
+    );
+};
+
+export default AboutPage;
